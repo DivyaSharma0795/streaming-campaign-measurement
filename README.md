@@ -62,4 +62,8 @@ Three tables, each representing a distinct stage of the customer journey.
 Only customers with an active subscription in months 5–7 appear in this table - i.e. those who resubscribed and did not immediately churn again.
 
 ---
-
+| Segment | Discount | Free Trial | Early Access | Control |
+|---|---|---|---|---|
+| Low | 17% | 20% | 15% | 6% |
+| med | 18% | 15% | 12% | 8% |
+| high | 22% | 24% | 30% | 10%|
