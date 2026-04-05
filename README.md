@@ -62,8 +62,25 @@ Three tables, each representing a distinct stage of the customer journey.
 Only customers with an active subscription in months 5–7 appear in this table - i.e. those who resubscribed and did not immediately churn again.
 
 ---
-| Segment | Discount | Free Trial | Early Access | Control |
-|---|---|---|---|---|
-| Low | 17% | 20% | 15% | 6% |
-| med | 18% | 15% | 12% | 8% |
-| high | 22% | 24% | 30% | 10%|
+
+## Data
+
+All data in this project is simulated. There is no real customer data.
+
+The simulation is designed to reflect realistic patterns observed in 
+re-engagement campaigns — conversion rates, watch behavior, and segment 
+differences are grounded in plausible assumptions rather than random noise.
+
+To regenerate the data, run the simulation script from the `notebooks/` folder:
+```bash
+python 01_simulation.py
+```
+
+This will write three tables to `data/raw/`:
+- `customers.csv` — one row per churned customer (500K rows)
+- `responses.csv` — one row per customer with offer assignment and resubscription outcome
+- `views.csv` — one row per customer per active viewing day in the measurement window (~2.3M rows)
+
+The ground truth conversion probabilities used in the simulation are documented 
+in the simulation script itself. The analysis notebooks treat these as unknown 
+and attempt to recover them statistically.
