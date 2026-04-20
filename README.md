@@ -52,6 +52,7 @@ This approach maximizes resubscription rates by aligning incentives with custome
 
 ## Repository Structure
 
+```
 ├── data/
 │   ├── raw/
 │   │   ├── customers.csv
@@ -67,6 +68,7 @@ This approach maximizes resubscription rates by aligning incentives with custome
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
+```
 
 ## How to Run
 
