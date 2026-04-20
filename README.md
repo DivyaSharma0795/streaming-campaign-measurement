@@ -2,7 +2,7 @@
 
 Primeflix is trying to win back ~500K churned users using three offers: Discount, Free Trial, and Early Access.
 
-Customers are split into Low / Medium / High engagement segments, with a 10% control group.
+Churned customers are split into Low / Medium / High engagement segments based on prior behabior, with a 10% control group.
 This project evaluates which offers actually drive incremental resubscriptions and whether results differ by segment.
 
 **Campaign Timeline**
