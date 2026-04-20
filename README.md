@@ -21,15 +21,13 @@ This project evaluates which offers actually drive incremental resubscriptions a
 
 The segmentation is central to this analysis because Primeflix has observed that low, medium, and high engagement customers respond differently to content and pricing incentives. A single overall conversion rate would mask these differences and lead to a one-size-fits-all offer strategy that underperforms.
 
----
-
 ## Key Findings
 
-1. Marketing Effectiveness
+### 1. Marketing Effectiveness
 
 The campaign significantly increased resubscriptions across all segments. Resubscription rates improved by 91% to 192% relative to the control group, confirming strong incremental lift from targeted offers.
 
-2. Offer Performance is Segment-Specific
+### 2. Offer Performance is Segment-Specific
 
 No single offer performs best across all customers. Instead, effectiveness varies by prior engagement:
 | Segment | Best Offer              | Lift vs Next Best |
@@ -40,6 +38,9 @@ No single offer performs best across all customers. Instead, effectiveness varie
 
 This highlights the importance of tailoring offers according to customer behavior - different users respond to different incentives.
 
+### 3. Post resubbsciption engagement
+Retained customers do stay engaged, but their engagement levels remain consistent - it does not depend on the offers they received.
+
 ## Recommendation
 Adopt a segment-based targeting strategy for re-engagement campaigns:
 
@@ -49,6 +50,7 @@ Adopt a segment-based targeting strategy for re-engagement campaigns:
 
 This approach maximizes resubscription rates by aligning incentives with customer preferences. Since post-return engagement is unaffected by offer type, optimization should focus purely on conversion lift, not downstream usage.
 
+---
 
 ## Repository Structure
 
